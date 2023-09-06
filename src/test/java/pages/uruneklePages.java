@@ -9,7 +9,7 @@ import util.ElementHelper;
 
 import java.util.List;
 
-public class trendyolPages {
+public class uruneklePages {
     AppiumDriver driver;
     WebDriverWait wait;
     ElementHelper elementHelper;
@@ -27,7 +27,7 @@ public class trendyolPages {
 
     By filtreuygula = MobileBy.AndroidUIAutomator("new UiSelector().resourceId(\"trendyol.com:id/btnApplyFilter\")");
 
-    public trendyolPages(AppiumDriver driver) {
+    public uruneklePages(AppiumDriver driver) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, 10);
         this.elementHelper = new ElementHelper(driver);

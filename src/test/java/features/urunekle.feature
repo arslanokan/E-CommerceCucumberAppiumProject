@@ -1,6 +1,6 @@
 @trendyol
-  Feature:trendyol Mobil Uygulamasi
-    Scenario:trendyol Mobil Uygulamasi ile Telefon Satin Alma İslemi
+  Feature:eticaret Mobil Uygulamasi
+    Scenario:eticaret Mobil Uygulamasi ile Telefon Satin Alma İslemi
       When Teslimat ulkesi secilir
       When Cinsiyet secimi yapilir
       When X butonuna Tikla

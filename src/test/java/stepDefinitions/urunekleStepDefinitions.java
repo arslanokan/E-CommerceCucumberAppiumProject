@@ -2,59 +2,59 @@ package stepDefinitions;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pages.trendyolPages;
+import pages.uruneklePages;
 import util.DriverFactory;
 
-public class trendyolStepDefinitions {
+public class urunekleStepDefinitions {
 
-    trendyolPages trendyolPages = new trendyolPages(DriverFactory.getDriver());
+    uruneklePages uruneklePages = new uruneklePages(DriverFactory.getDriver());
     @When("Teslimat ulkesi secilir")
     public void teslimatUlkesiSecilir() {
-        trendyolPages.ulkeSec();
+        uruneklePages.ulkeSec();
     }
 
     @When("Cinsiyet secimi yapilir")
     public void cinsiyetSecimiYapilir() {
-        trendyolPages.cinsiyetSec();
+        uruneklePages.cinsiyetSec();
     }
     @When("X butonuna Tikla")
     public void xButonunaTikla() {
-        trendyolPages.xButonunaTikla();
+        uruneklePages.xButonunaTikla();
     }
 
     @When("Arama alanina tiklanir")
     public void aramaAlaninaTiklanir() {
-        trendyolPages.searchTikla();
+        uruneklePages.searchTikla();
     }
 
     @When("Arama alanina cep telefonu yaz")
     public void aramaAlaninaCepTelefonuYaz() {
-        trendyolPages.aramaAlaninaCepTelefonuYaz();
+        uruneklePages.aramaAlaninaCepTelefonuYaz();
     }
 
     @When("Ilgili sonuclardan cep telefonuna tikla")
     public void ilgiliSonuclardanCepTelefonunaTikla() {
-        trendyolPages.cepTelefonunaTikla();
+        uruneklePages.cepTelefonunaTikla();
     }
 
     @When("Filtre butonuna tikla")
     public void filtreButonunaTikla() {
-        trendyolPages.filtreButonunaTikla();
+        uruneklePages.filtreButonunaTikla();
     }
 
     @When("Marka secilir")
     public void markaSecilir() {
-        trendyolPages.markaSec();
+        uruneklePages.markaSec();
     }
 
     @When("Filtreleme yapilir")
     public void filtrelemeYapilir() {
-        trendyolPages.filtrelemeYap();
+        uruneklePages.filtrelemeYap();
     }
 
     @When("Urunleri listele tiklanir")
     public void urunleriListeleTiklanir() {
-        trendyolPages.urunListeTikla();
+        uruneklePages.urunListeTikla();
     }
 
     @When("Urun sepete eklenir")

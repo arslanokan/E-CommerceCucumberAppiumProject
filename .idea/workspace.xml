@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a24e9a71-3a19-4c07-a41c-9bd09d9e2bdb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="a24e9a71-3a19-4c07-a41c-9bd09d9e2bdb" name="Changes" comment="Son commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testRunners/runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testRunners/runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/ElementHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ElementHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/trendyol.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/trendyol.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/trendyolPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/trendyolPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/trendyolStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/trendyolStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Parallel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Parallel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/trendyol.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/urunekle.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/trendyolPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/uruneklePages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/trendyolStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/urunekleStepDefinitions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +55,21 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="EticaretCucumberAppiumProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="EticaretCucumberAppiumProject" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/macbook/Documents/TrendyolAppiumProject/src/test/resources/Parallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TrendyolAppiumProject" />
+      <module name="EticaretCucumberAppiumProject" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/Parallel.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
@@ -88,6 +93,18 @@
       <option name="presentableId" value="Default" />
       <updated>1687359158771</updated>
     </task>
+    <task id="LOCAL-00001" summary="Son commit">
+      <created>1694040008217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694040008217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Son commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Son commit" />
   </component>
 </project>

@@ -1,6 +1,6 @@
 <suite name = "Parallel" verbose = "1" >
     <parameter name = "browser" value = "Android" />
-        <test name = "TrendyolAppiumProject" >
+        <test name = "EticaretCucumberAppiumProject" >
             <classes>
                 <class name = "testRunners.runner" />
             </classes>
